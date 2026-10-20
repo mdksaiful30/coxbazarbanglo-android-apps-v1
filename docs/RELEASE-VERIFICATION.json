@@ -1,0 +1,61 @@
+{
+  "file": "G:\\apps-development\\coxbanglo\\build\\app\\outputs\\bundle\\release\\app-release.aab",
+  "upload_file": "G:\\apps-development\\coxbanglo\\releases\\coxbazarbanglo-1.0.2-3-booking-fixes.aab",
+  "version_name": "1.0.2",
+  "version_code": 3,
+  "package": "com.learnwithzaman.coxbazarbanglo",
+  "production_api": "https://coxbazarbanglo.learnwithzaman.com/api/v1",
+  "bytes": 59613214,
+  "sha256": "f4473b4b5658203146057c998f190848ea6d1b3a8496e0d9a99364ea981a2f11",
+  "branding_assets_verified": true,
+  "native_launcher_resource_count": 24,
+  "native_elf_alignment": [
+    {
+      "library": "base/lib/arm64-v8a/libapp.so",
+      "minimum_load_alignment": 65536
+    },
+    {
+      "library": "base/lib/arm64-v8a/libdartjni.so",
+      "minimum_load_alignment": 16384
+    },
+    {
+      "library": "base/lib/arm64-v8a/libflutter.so",
+      "minimum_load_alignment": 65536
+    },
+    {
+      "library": "base/lib/armeabi-v7a/libapp.so",
+      "minimum_load_alignment": 16384
+    },
+    {
+      "library": "base/lib/armeabi-v7a/libdartjni.so",
+      "minimum_load_alignment": 16384
+    },
+    {
+      "library": "base/lib/armeabi-v7a/libflutter.so",
+      "minimum_load_alignment": 65536
+    },
+    {
+      "library": "base/lib/x86_64/libapp.so",
+      "minimum_load_alignment": 65536
+    },
+    {
+      "library": "base/lib/x86_64/libdartjni.so",
+      "minimum_load_alignment": 16384
+    },
+    {
+      "library": "base/lib/x86_64/libflutter.so",
+      "minimum_load_alignment": 65536
+    }
+  ],
+  "flutter_analyze": "passed",
+  "flutter_tests": 33,
+  "verification": "Archive CRC, embedded branding, bundle manifest version/package, and native ELF LOAD alignment checked. Real-device and Play delivery testing still required.",
+  "bundletool_validate": "passed (1.18.3)",
+  "jar_signature_verified": true,
+  "upload_certificate_matches": true,
+  "upload_certificate_sha256": "48:4A:D9:32:3C:CD:CD:5D:9B:B9:15:9A:91:8D:87:A4:C5:D9:22:71:52:B1:5E:B0:0F:E1:86:08:DD:FA:71:73",
+  "flutter_web_build": "Passed; version 1.0.2+3 with booking-date restrictions and local PDF/JPG generation.",
+  "ios": "Brand icons updated; no iOS binary built on Windows",
+  "changes": "Disallow past dates for new bookings; generate PDF and JPG booking/payment summaries locally with Bengali text support.",
+  "room_illustrations_embedded": 6
+}
